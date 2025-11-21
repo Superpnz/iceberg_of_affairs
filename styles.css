@@ -173,7 +173,7 @@ body {
 
 @media (max-width: 576px) {
     .header {
-        font-size: 22px;
+        font-size: 20px;
         height: 120px;
     }
 
@@ -192,7 +192,8 @@ body {
 
         .add-todo-input,
         .search-todo-input {
-            font-size: 18px;
+            width: calc(100% - 20px);
+            font-size: 17px;
             padding-left: 8px;
         }
     }
